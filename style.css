@@ -1,4 +1,17 @@
-body {
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +30,7 @@ body {
     width: 148px;
     height: 148px;
     background-color: #7e8aeb;
+    z-index: 1;
 }
 
 .square-green {
