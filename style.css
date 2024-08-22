@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-red {
+    width: 148px;
+    height: 148px;
+    background-color: #ff8888;
+    position: relative;
+    bottom: 88px;
+    left: 60px;
+}
+
+.square-blue {
+    width: 148px;
+    height: 148px;
+    background-color: #7e8aeb;
+}
+
+.square-green {
+    width: 148px;
+    height: 148px;
+    background-color: #4def99;
+    position: relative;
+    top: 88px;
+    right: 60px;
+}
